@@ -1,0 +1,165 @@
+.sidebar {
+  background-color: #0a0b4f;
+  color: white;
+  height: 1115px;
+}
+
+.sidebar .nav-link {
+  color: white;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Set the background color for the entire page */
+body {
+  background-color: white;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header section */
+.header {
+  background-color: #0a0b4f;
+  text-align: center;
+  padding: 10px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: white;
+}
+
+/* Style the main content section */
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the table */
+.meeting-table {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #0a0b4f;
+  /* Set text color for table headings */
+}
+
+th {
+  background-color: #0a0b4f;
+  color: white;
+}
+
+/* Style the form section */
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #0a0b4f;
+  /* Add this line to set the label text color to white */
+}
+
+.meeting-form {
+  background-color: white;
+  /* Change the background color to white */
+  border: 2px solid #0a0b4f;
+  /* Add a dark blue border */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Style the table */
+.meeting-table {
+  background-color: white;
+  /* Change the background color to white */
+  border: 2px solid #0a0b4f;
+  /* Add a dark blue border */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.meeting-form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.meeting-form h2 {
+  color: #0a0b4f;
+  /* Set text color for form headings */
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+form input[type="date"],
+form input[type="time"],
+form input[type="text"],
+form textarea,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#e_date {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button[type="submit"] {
+  background-color: #0a0b4f;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button[type="submit"]:hover {
+  background-color: #000833;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0a0b4f;
+  color: white;
+  font-size: 14px;
+}

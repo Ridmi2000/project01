@@ -1,0 +1,356 @@
+.navbar{
+    background:#0A0B4F; font-family: calibri; padding-right:5px; padding-left: 5px;
+    box-sizing:border-box;
+
+}
+
+.navdiv{ display: flex; align-items: center;
+         
+}
+.logo img{
+    width:100px;
+    height:100px;
+}
+
+ .logo2 img{ 
+        width:100px;
+    height:100px;
+       margin-left: 100px; 
+    }
+
+.navdiv ul {
+    list-style:none; display:inline-flex; flex-wrap:wrap; color:white; font-size:18px; 
+   
+  
+}
+.navdiv li a{
+    text-decoration:none;
+    color: #fff;
+    width:100px;
+    display:block;
+    padding:20px 15px;
+    text-align: center
+    ;
+}
+
+.navdiv li a:hover
+{
+    background:   #1b4e8e         ;
+    border-radius: 3px;
+    
+}
+
+
+
+
+
+
+body{
+    
+}
+
+
+
+
+.corner-links {
+    position: absolute;
+    top: 20px;
+    right: 5px;
+}
+
+.corner-links a {
+    color: #58629b; 
+    font-size: 18px; 
+    text-decoration: none;
+    margin-right: 20px; 
+}
+
+.corner-links .profile-link {
+    font-weight: bold;
+}
+
+
+
+
+
+
+.search-bar {
+    width: 40%;
+    max-width: 350px;
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    margin: 20px auto;
+    height: 30px;
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 2px 10px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: #a9b0b1;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #58629b;
+    cursor: pointer;
+}
+
+.search-bar button i {
+    color: #fff; 
+    font-size: 24px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+* container{
+  margin: 0;
+  padding: 0;
+  
+}
+.Indoor{
+    background-color: #333;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    
+    background-image: url('indoor.jpg');
+     background-repeat: no-repeat;
+ 
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('indoor.jpg');
+  background-size: 100% 100%, cover;
+  background-blend-mode: overlay;
+    
+}
+
+
+
+
+
+.outdoor{
+    background-color: #333;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background-image: url('outdoor_1.jpg');
+    background-size: 100% 100%;
+
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url('outdoor_1.jpg');
+  background-size: 100% 100%, cover;
+  background-blend-mode: overlay;
+}
+
+
+
+
+.cards-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+.card {
+  width: 200px;
+  margin: 10px;
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  cursor: pointer;
+  
+  
+}
+
+.card:hover{
+     background-color:    #757063  ;
+     border-color: red;
+}
+
+
+
+
+.card img {
+  width: 70%;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: black;
+  
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+    margin-top: auto; 
+}
+
+.buttons button {
+  width: 80px;
+  height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+.men-button{
+  width: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #17287c;
+  
+}
+
+.men-button:hover {
+  background-color:#469fc6 ;
+}
+
+.women-button {
+  background-color:    #990e30    ;
+ 
+}
+
+.women-button:hover {
+  background-color:  #e3447e ;
+
+
+
+.white-heading {
+  color:  #fdfefe ;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.End{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+.footer{
+    padding:40px 0;
+    background-color: white;
+}
+
+
+.f1{
+max-width: 1170px;
+margine:5px;
+}
+footer ul{
+     list-style:none; display:inline-flex; flex-wrap:wrap; color:black; font-size:18px; 
+    
+}
+footer li{
+     width:50px;
+    display:block;
+    padding:20px 15px;
+    text-align: center
+}
+.footer-col{
+    width:25%;
+    padding:2px;
+}
+
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+
+}
+.column {
+
+}
+
+.right {
+
+}
+
+.signup-link {
+
+}
+
+
+
